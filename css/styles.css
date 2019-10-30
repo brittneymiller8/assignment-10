@@ -1,0 +1,57 @@
+html {
+    font-size: 100%; /* keep */
+    box-sizing: border-box; /* keep */
+}
+
+* {
+    box-sizing: inherit; /* keep */
+}
+body {
+    font-family: Baskerville, ‘Times New Roman’, Times, serif;
+    background: #11345E; /* keep */
+    color: #fff; /* keep */
+    margin: 20px; /* keep */
+    font-size: 1.3rem;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Trebuchet, Tahoma, Arial, sans-serif;
+}
+
+.borderChange {
+  border: 3px solid #fff;
+}
+
+h1 {
+  text-shadow: .05em .05em #09090A;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* pseudo classes */
+a {
+    color: #D11CE6; /* keep */
+}
+
+a:hover {
+    color: #f4cdb7; /* keep */
+    text-decoration: none; /* keep */
+}
+
+/* media queries below - only 1 is needed */
+@media screen and (max-width: 800px) {
+  #puppyChange {
+      width: 100%;
+    }
+
+  #container {
+    padding: 20px;
+  }
+  }
